@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 0px;
+    margin: 0;
+  }
+/* navigation bar  */
+
+.navigation{
+    font-family: sans-serif;
+    padding: 20px;
+    background-color: #02908B;
+    position: fixed;
+    width: 100%;
+}
+
+.navigation li{
+    display: inline;
+    margin: 0 20px 20px 20px;
+    color: white;
+}
+.navigation ul{
+    float: right;
+}
+
+.navigation a{
+    font-size: 23px;
+    color: white;
+}
+
+.navigation span{
+    color: yellow;
+}
+
+/* header  */
+.header{
+    text-align: center;
+    background-image: url("../css/img/Canva\ -\ Businessman\ Adjusting\ His\ Necktie.jpg");
+    width: 100%;
+    height: 700px;
+    line-height: 7em;
+}
+
+.header h1{
+    font-size: 36px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 700;
+    padding-top: 150px;
+}
+
+.header h2{
+    font-size: 72px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.header p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.header a{
+    border: 1px yellow solid;
+    background-color: yellow;
+    color: black;
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+.header hr{
+    border: 2px white solid;
+    width: 20%;
+    margin: auto 40%;
+}
+
+/* about me  */
+
+.about{
+    font-family: sans-serif;
+    text-align: center;
+    height: 300px;
+    margin: 20px;
+    margin-top: 90px;
+}
+
+.about .title{
+    color: #02908B;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.about hr{
+    border: 2px yellow solid;
+    width: 20%;
+    margin: auto 40%;
+    margin-bottom: 20px;
+}
+
+.about > p{
+    color: #7e8287;
+  line-height: 50px;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.about span{
+    font-size: 23px;
+  font-weight: bold;
+}
+
+/* boxes  */
+
+.about-boxes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.about-boxes .box{
+    width: 15%;
+    height: 200px;
+    padding-right: 2em;
+    padding-left: 2em;
+    line-height: 3em;
+    border-right: 1px #7e8287 solid;
+    border-left: 1px #7e8287 solid;
+    color: #7e8287;
+  }
+  .box h2 {
+    font-size: 18px;
+  }
+  .box p {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 2em;
+  }
+  .box i {
+    color: #02918c;
+    font-size: 40px;
+  }
+   
+  /* services section  */
+
+  .service{
+      width: 100%;
+      text-align: center;
+      height: 30em;
+      background-color: #f7f7f7;
+      margin-top: 20px;
+  }
+
+  .serviceboxes{
+      display: flex;
+      justify-content: center;
+      text-align: center;
+     
+  }
+
+  .service .servicebox{
+      text-align: center;
+      float: inline-start; 
+      border-right: 1px #7e8287 solid;
+      border-left: 1px #7e8287 solid;
+  }
+
+  .service .title2{
+    color: #02908B;
+    font-size: 46px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+
+  .service hr{
+    border: 2px yellow solid;
+    width: 20%;
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .service h2{
+      text-decoration: underline;
+      color: #02918c;
+  }
+
+  .service p{
+    color: #7e8287;
+    line-height: 30px;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .service i{
+      font-size: 40px;
+      color: #02908B;
+  }
+
+  /* contact me section  */
+
+  .contact{
+      width: 100%;
+      font-family: sans-serif;
+      text-align: center;
+      line-height: 5em;
+  }
+  
+  .contact .title3{
+    color: #02908B;
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .contact hr{
+    border: 2px yellow solid;
+    width: 20%;
+    margin-bottom: 20px;
+    margin-right: 40%;
+    margin-left: 40%;
+  }
+
+  .contact p{
+      color: #7e8287;
+      width: 50%;
+      margin-right: 25%;
+      margin-left:25%;
+      line-height: 3em;
+  }
+
+  /* name section  */
+
+  .name {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      background-color: #3c4245;
+      width: 100%;
+      height: 500px;
+      color: #02908B;
+      line-height: 4em;
+  }
+
+  .name input{
+      background-color: #3c4245;
+      border: none;
+      border-bottom: 1px #02908B solid;
+      font-size: 40px;
+      text-align: center;
+      color: #f7f7f7;
+      
+  }
+
+  .information .name a{
+    background-color: yellow;
+    color: #3c4245;
+    width: 100px;
+    height: 55px;
+    margin-right: 46%;
+    margin-left: 46%;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  input:focus{
+      outline: none;
+  }
+
+  /* footer  */
+
+  .footer{
+      width: 100%;
+      height: 40px;
+      background-color: black;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      font-family: sans-serif;
+      padding-top: 10px;
+      font-size: 20px;
+  }
+ 
+
+
